@@ -31,7 +31,7 @@ function setFloat(v, fun): void {
 Usage for a react app:
 
 ```
-const [profiit, setProfit] = useState(0);
+const [profit, setProfit] = useState(0);
 return <input onChangeText((v) => setFloat(v, setProfit)) value={profit} />
 ```
 
