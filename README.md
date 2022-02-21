@@ -43,5 +43,5 @@ return <input onChangeText((v) => setFloat(v, setProfit)) value={profit} />
 
 ### setSciNumber
 
-Scientific number might be complicate, there would be sperical char for a certain meaning, eg "e" prepresents times ten, eg "1e2" would be "100".
+Scientific number might be complicate, there could be a sperical char for a certain value, eg "e" prepresents times ten, "1e2" would be "100".
 
