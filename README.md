@@ -1,5 +1,5 @@
 # setNumber
-a solution for react onChange/onChangeText for number.
+A solution for react onChange/onChangeText for number.
 
 ## Story
 
