@@ -12,8 +12,9 @@ Simple parseFloat or parseInt would easily get `NaN` on input value, which might
 In general we handle on number and dot as float number needs, so it would be regex with `/\d|\./` to validate the number from string. 
 Baside of that, we have few corner cases: 
 
-1. It is not allow double 0 or double dots ("..") in the beginning of the string input. 
-2. There shouldn't be more then 1 dot in the string.
+1. Leading 0 is not allowed for number more then 1.
+2. It is not allow double 0 in the beginning of the string input. 
+3. It is not allow double dots ("..") among the number characters.
 
 Here is the function:
 
